@@ -121,6 +121,54 @@
             </li>
           </ul>
         </section>
+        <section id="book-a-table" class="reservation">
+          <h2 class="reservation__title">book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__lable">
+                Name*
+                <input
+                  class="form__input"
+                  id="name-input"
+                  type="text"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <!-- todo add for /id attribute pairs to other input/-->
+              <label for="" class="form__lable">
+                Number of guest*
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="" class="form__lable">
+                Date & time *
+                <input class="form__input" type="Datetime-local" required />
+              </label>
+              <label for="" class="form__lable">
+                Your email *
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@emale"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">book a table</button>
+
+            <lable for="" class="form__lable form__lable_type_checbox">
+              <input class="form__input" type="checkbox" />
+              I agree with the terms of use
+            </lable>
+          </form>
+        </section>
+
         <section id="book-a-table" class="reservation"></section>
         <section id="menu" class="menu"></section>
         <section class="about"></section>
